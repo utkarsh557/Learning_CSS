@@ -1,0 +1,27 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: plum;
+    border: 1px solid;
+    border-radius: 5px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+    /* animation-name: ghumakkad;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    /* animation shorthand */
+    animation: ghumakkad 1s ease-in-out 0s infinite alternate;
+}
+
+@keyframes ghumakkad {
+    0% { left: 30px; }
+    50% { left: 70px; }
+    60% { left: 350px; }
+    100% { left: 400px; }
+}
